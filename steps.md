@@ -34,11 +34,33 @@ Lister chaque page dont vous allez avoir besoin. Renseignez pour chacune :
 - Les liens présents sur la page
 - Les formulaires présents sur la page
 
-### 4. Découpage du template
+## Mise en oeuvre
+
+### 1. Découpage du template
 
 - Création de tous les fichiers `.php` et intégration à l'intérieur du HTML/CSS du template
 - Optimisation des fichiers `.php` en découpant les parties redondantes communes à toutes les pages (ex : header, footer, head, etc...)
 - Mise en place des blocs de contenus (sans contenu) dans chaque page en fonction des besoins. (ex : textes, formulaires, etc...)
 - "Activation" des redirections des liens. Renseignez les href de vos liens. A cette étape, toutes les pages ou presque doivent être navigables.
 
+### 2. Mise en place de la BDD
 
+- En se basant sur la conception
+- Générer un script SQL qui permet, une fois lancé, de créer la BDD
+- Si possible en intégrant des jeux de données démo / test.
+
+### 3. Authentification
+
+- Mise en place de l'inscription / connexion
+
+### 4. Intégration de la BDD dans le PHP
+
+- Etablir la connexion pour toutes les pages du site
+- Commencer à tester les requêtes SQL
+- Mise en place des `SELECT` des informations pour toutes les pages, puis intégration des contenus depuis les `SELECT` vers le HTML.
+
+A partir d'ici, vous pouvez vous amuser à modifier les contenus depuis PHPMyAdmin pour vérifier que votre site est bien dynamique partout !
+
+### 5. CRUD
+
+- Mise en fonctionnement de tous les formulaires du site
