@@ -52,7 +52,9 @@ Lister chaque page dont vous allez avoir besoin. Renseignez pour chacune :
 
 ### 3. Authentification
 
-- Mise en place de l'inscription / connexion
+- Mise en place de l'inscription / connexion en se servant des variables de session
+  - vous devez démarrer la session dans TOUTES vos pages pour pouvoir accéder à `$_SESSION`
+  - Pour vérifier la connexion, il faut vérifier le contenu de `$_SESSION` : attention, s'il est vide vous devez rediriger l'utilisateur sur la page de login
 
 ### 4. Intégration de la BDD dans le PHP
 
