@@ -24,6 +24,7 @@
   - Modèle Conceptuel de Données (MCD)
   - Modèle Logique de Données (MLD)
   - Modèle Physique de Données (MPD)
+- Créer le script de création de la BDD à la mano si possible. Vous avez un exemple de rappel de base dans le fichier "script_bdd.sql".
 
 ### 3. Arborescence du site
 
